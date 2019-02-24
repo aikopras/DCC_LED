@@ -1,0 +1,42 @@
+#########################################
+# Syntax Coloring Map For DCC_LED
+#########################################
+
+#########################################
+# Datatypes (KEYWORD1)
+#########################################
+DCC_Led	KEYWORD1
+
+#########################################
+# Methods and Functions (KEYWORD2)
+#########################################
+turn_on	KEYWORD2
+turn_off	KEYWORD2
+flash	KEYWORD2
+start_up	KEYWORD2
+activity	KEYWORD2
+feedback	KEYWORD2
+flashSlow	KEYWORD2
+flashFast	KEYWORD2
+update	KEYWORD2
+
+ontime	KEYWORD2
+offtime	KEYWORD2
+count	KEYWORD2
+pause	KEYWORD2
+mode	KEYWORD2
+
+#########################################
+# Instances (KEYWORD2)
+#########################################
+
+
+#########################################
+# Constants (LITERAL1)
+#########################################
+alwaysOn	LITERAL1
+alwaysOff	LITERAL1
+singleFlashSerie	LITERAL1
+neverStopFlashing	LITERAL1
+
+
