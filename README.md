@@ -24,17 +24,17 @@ If the LED is put in flashing mode, the following attributes  can be set (all ti
         
         DCC_Led(uint8_t pin);
         // Basic functions: on, off and flash
-        void** turn_on(**void**); 
-        void** turn_off(**void**);
-        void** flash(**void**);
-        *void** start_up(**void**);
+        void turn_on(void); 
+        void turn_off(void);
+        void flash(void);
+        void start_up(void);
         
         // Some functions for common tasks with preset attributes_
-        void** activity(**void**);
-        void** feedback(**void**);
-        void** flashSlow(**void**);
-        void** flashFast(**void**);
+        void activity(void);
+        void feedback(void);
+        void flashSlow(void);
+        void flashFast(void);
         
         // Should be called from the main loop as often as possible
-        void** update(**void**);
+        void update(void);
     }
