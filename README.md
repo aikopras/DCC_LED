@@ -4,6 +4,7 @@ Arduino library containing all the LED specific code needed for the various DCC 
 
 ### LED operation ###
 LED operation can be selected via the following core functions:
+- `attach()`: To connect the ledPin
 - `turn_on()`: Turn the LED on
 - `turn_off()`: Turn the LED off
 - `flash()`: Put the LED in flashing mode
